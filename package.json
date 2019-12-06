@@ -1,21 +1,19 @@
 {
-  "name": "glow-media-cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@weareglow/media-cli",
+  "version": "0.0.1",
+  "description": "A command line tool for creating media campaigns.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "glow-media": "./lib/index.js"
+    "glow": "./lib/index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "minimist": "^1.2.0",
-    "simple-git": "^1.126.0"
-  },
-  "dependencies": {
+    "simple-git": "^1.126.0",
     "chalk": "^3.0.0",
     "clear": "^0.1.0",
     "cli-color": "^2.0.0",
