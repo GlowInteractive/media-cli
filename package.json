@@ -4,7 +4,9 @@
   "description": "A command line tool for creating media campaigns.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "glow": "glow",
+    "glow-create": "glow create"
   },
   "bin": {
     "glow": "./lib/index.js"
