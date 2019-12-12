@@ -3,11 +3,6 @@
   "version": "0.0.7",
   "description": "A command line tool for creating media campaigns.",
   "main": "index.js",
-  "scripts": {
-    "glow": "glow",
-    "create": "glow create",
-    "zip-all": "glow zip-all"
-  },
   "bin": {
     "glow": "./lib/index.js"
   },
