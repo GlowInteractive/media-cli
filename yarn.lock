@@ -269,6 +269,14 @@ debug@^4.1.1:
   dependencies:
     ms "^2.1.1"
 
+dot-case@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/dot-case/-/dot-case-3.0.2.tgz#6758d86d3e7b69adc0fcfad23a845676c329f7d9"
+  integrity sha512-z3vMZEW2o3btKlM9I6FQF0pIWTzBuW+udrAaJr+A6JA3+p62ADZjeFthKxqxKHZlUxQmkKeEWvaKLJdwpc5u6g==
+  dependencies:
+    no-case "^3.0.2"
+    tslib "^1.10.0"
+
 ejs@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.0.1.tgz#30c8f6ee9948502cc32e85c37a3f8b39b5a614a5"
@@ -522,6 +530,13 @@ lodash@^4.17.14, lodash@^4.17.15:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
+lower-case@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-2.0.1.tgz#39eeb36e396115cc05e29422eaea9e692c9408c7"
+  integrity sha512-LiWgfDLLb1dwbFQZsSglpRj+1ctGnayXz3Uv0/WO8n558JycT5fg6zkNcnW0G68Nn0aEldTFeEfmjCfmqry/rQ==
+  dependencies:
+    tslib "^1.10.0"
+
 lru-queue@0.1, lru-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/lru-queue/-/lru-queue-0.1.0.tgz#2738bd9f0d3cf4f84490c5736c48699ac632cda3"
@@ -574,6 +589,14 @@ next-tick@1, next-tick@^1.0.0, next-tick@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
+
+no-case@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/no-case/-/no-case-3.0.2.tgz#2b03928510318591854c0423e504d13b21234263"
+  integrity sha512-Yber3mEOA3T9+as7Z70TJUQCUPRmmq6s8NmsZX5aSB1qk+Mt+3a5JVPpnAnONUShLTkMDF4PJY3h0GKlXdRTNA==
+  dependencies:
+    lower-case "^2.0.1"
+    tslib "^1.10.0"
 
 normalize-path@^3.0.0:
   version "3.0.0"
@@ -672,6 +695,14 @@ signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+
+snake-case@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/snake-case/-/snake-case-3.0.2.tgz#2cc0eacf4edaab998f21af579b5a72b0766f91dd"
+  integrity sha512-1fRJdasXJTcsrGnUkDsnKNjHoP9NGclbIkYyY6Vv0vBVgz32rqhPFPg/Y0yIP4hwOd41Dh8rocCRHjNIuK4EZg==
+  dependencies:
+    dot-case "^3.0.2"
+    tslib "^1.10.0"
 
 string-width@^3.0.0:
   version "3.1.0"
