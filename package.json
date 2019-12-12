@@ -1,13 +1,8 @@
 {
   "name": "@weareglow/media-cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A command line tool for creating media campaigns.",
   "main": "index.js",
-  "scripts": {
-    "glow": "glow",
-    "create": "glow create",
-    "zip-all": "glow zip-all"
-  },
   "bin": {
     "glow": "./lib/index.js"
   },
@@ -67,6 +62,7 @@
     "rxjs": "^6.5.3",
     "safer-buffer": "^2.1.2",
     "signal-exit": "^3.0.2",
+    "snake-case": "^3.0.2",
     "string-width": "^4.2.0",
     "strip-ansi": "^5.2.0",
     "supports-color": "^7.1.0",
