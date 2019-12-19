@@ -61,6 +61,7 @@
     "fs-extra": "^8.1.0",
     "graceful-fs": "^4.2.3",
     "has-flag": "^4.0.0",
+    "html-loader": "^0.5.5",
     "html-webpack-plugin": "^4.0.0-beta.11",
     "iconv-lite": "^0.4.24",
     "image-webpack-loader": "^6.0.0",
