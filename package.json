@@ -4,8 +4,8 @@
   "description": "A command line tool for creating media campaigns.",
   "main": "index.js",
   "scripts": {
-    "start": "node ./lib/server",
-    "build": "webpack --config ./lib/server/webpack-prod-config.js"
+    "serve": "nodemon lib/index.js --serve --watch ./lib/server",
+    "build": "node lib/index.js --build"
   },
   "bin": {
     "glow": "./lib/index.js"
