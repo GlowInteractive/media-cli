@@ -900,10 +900,10 @@
     type-fest "^0.8.1"
     universalify "^0.1.2"
 
-"@weareglow/media-components@^0.0.30":
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/@weareglow/media-components/-/media-components-0.0.30.tgz#e51628d8df994fcf443f6346ab43ba0de3a224d2"
-  integrity sha512-3Oa7LBh0Zy5Mh2j8CTZyiySBj/YiBC6sqKxT7lLdnjTl1mFapi0oGcPKFM0sMzratw643FMRsae1zs52iwcL/w==
+"@weareglow/media-components@^0.0.31":
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/@weareglow/media-components/-/media-components-0.0.31.tgz#2b1688dba2b1ba278bd40b51ae01befb4efe4e42"
+  integrity sha512-Qur4cwQWhiN9aWoWevTpgkR8piMK86/vOAECIioXXBpmaoJJNemzwKlSbMpVzl9EZe4bXpPk88vL26Wun9XrkA==
   dependencies:
     "@weareglow/story-unit" "0.0.4"
 
