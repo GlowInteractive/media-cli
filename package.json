@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "serve": "nodemon lib/index.js --serve --watch ./lib/server",
-    "build": "node lib/index.js --build"
+    "build": "node lib/index.js --build",
+    "build-all": "node lib/index.js --build-all",
+    "zip-all": "node lib/index.js --zip-all"
   },
   "bin": {
     "glow": "./lib/index.js"
