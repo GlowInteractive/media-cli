@@ -17,50 +17,6 @@
       <% if (useEnabler) { %>exit-link="<%= exitLink %>"<%_ } %>
       size="<%= size %>"
       <% if (premiereDate) { %>premiere-date="<%= premiereDate %>"<% } %>>
-      <%_ if (componentList.includes('story')) { _%>
-        <glow-story>
-          <div slot="chapters">
-          </div>
-        </glow-story>
-      <%_ } _%>
-      <%_ if (componentList.includes('background-video')) { _%>
-        <glow-background-video
-          endframe-image=""
-          video-src=""
-        >
-        </glow-background-video>
-      <%_ } _%>
-      <%_ if (componentList.includes('trailer-video')) { _%>
-        <glow-trailer-video
-          width=""
-          height=""
-          video-title=""
-          control-position="top right"
-          endframe-image=""
-          src=""
-        >
-        </glow-trailer-video>
-      <%_ } _%>
-      <%_ if (componentList.includes('lockup')) { _%>
-        <glow-lockup>
-            <div slot="left-top">left-top</div>
-            <div slot="left-center">left-center</div>
-            <div slot="left-addon">left-addon</div>
-            <div slot="left-bottom">left-bottom</div>
-            <div slot="right-top">right-top</div>
-            <div slot="right-bottom">right-bottom</div>
-            <div slot="right-center">right-center</div>
-        </glow-lockup>
-      <%_ } _%>
-      <%_ if (componentList.includes('cta-button')) { _%>
-        <glow-cta-button 
-          background-color=""
-          hover-background-color=""
-          font-color=""
-          hover-font-color=""
-        >
-        </glow-cta-button>
-      <%_ } _%>
     </glow-media-unit>
     <%_ if (useEnabler) {_%>
     <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
