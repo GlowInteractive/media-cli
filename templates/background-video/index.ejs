@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="ad.size" content="<%= sizeMeta %>">
+    <title><%= client %> | <%= campaignName %></title>
+    <%_ if (!useEnabler) { _%>
+      <script>
+        var clickTag = "<%= exitLink %>"
+      </script>   
+    <%_ } _%>
+  </head>
+  <body>
+    <glow-media-unit
+      style="background: black;"
+      <% if (useEnabler) { %>exit-link="<%= exitLink %>"<%_ } %>
+      size="<%= size %>"
+      <% if (premiereDate) { %>premiere-date="<%= premiereDate %>"<% } %>>
+      <glow-background-video
+        endframe-image="assets/endframe.jpg"
+        video-src="assets/bg-video.mp4"
+      >
+      </glow-background-video>
+    </glow-media-unit>
+    <%_ if (useEnabler) {_%>
+    <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+    <%_ } _%>
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.0.1_min.js"></script>
+  </body>
+</html>
