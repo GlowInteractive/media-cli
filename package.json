@@ -24,7 +24,7 @@
     "@babel/preset-env": "^7.7.1",
     "@babel/runtime": "^7.7.4",
     "@weareglow/media-cli": "^0.0.11",
-    "@weareglow/media-components": "^0.0.37",
+    "@weareglow/media-components": "^0.0.38",
     "ansi-escapes": "^4.3.0",
     "ansi-regex": "^2.1.1",
     "ansi-styles": "^4.2.0",
