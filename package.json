@@ -4,7 +4,7 @@
   "description": "A command line tool for creating media campaigns.",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon lib/index.js --serve --watch ./lib/server",
+    "start": "node lib/index.js --serve --watch ./lib/server",
     "build": "node lib/index.js --build",
     "build-all": "node lib/index.js --build-all",
     "zip-all": "node lib/index.js --zip-all"
@@ -24,7 +24,7 @@
     "@babel/preset-env": "^7.7.1",
     "@babel/runtime": "^7.7.4",
     "@weareglow/media-cli": "^0.0.11",
-    "@weareglow/media-components": "^0.0.35",
+    "@weareglow/media-components": "^0.0.38",
     "ansi-escapes": "^4.3.0",
     "ansi-regex": "^2.1.1",
     "ansi-styles": "^4.2.0",
