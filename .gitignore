@@ -3,6 +3,6 @@ node_modules
 config
 media-units
 archives
-templates
 shared/
 builds/
+test-templates
