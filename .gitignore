@@ -6,4 +6,4 @@ archives
 shared/
 builds/
 test-templates
-generators/
+generators/test.js
