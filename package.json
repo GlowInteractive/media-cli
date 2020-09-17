@@ -1,6 +1,6 @@
 {
   "name": "@weareglow/media-cli",
-  "version": "0.2.21",
+  "version": "0.2.22",
   "description": "A command line tool for creating media campaigns.",
   "main": "index.js",
   "scripts": {
