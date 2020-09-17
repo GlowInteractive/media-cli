@@ -1,13 +1,14 @@
 {
   "name": "@weareglow/media-cli",
-  "version": "0.2.7",
+  "version": "0.2.9",
   "description": "A command line tool for creating media campaigns.",
   "main": "index.js",
   "scripts": {
     "start": "node lib/index.js --serve --watch ./lib/server",
     "build": "node lib/index.js --build",
     "build-all": "node lib/index.js --build-all",
-    "zip-all": "node lib/index.js --zip-all"
+    "zip-all": "node lib/index.js --zip-all",
+    "generate": "node lib/index.js --zip-all"
   },
   "bin": {
     "glow": "./lib/index.js"
