@@ -23,12 +23,27 @@
       width: 160px;
       height: 600px;
     }
+
+    .logo {
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 116px;
+    }
   }
 
   &-300x600 {
     .media-unit {
       width: 300px;
       height: 600px;
+    }
+
+    .logo {
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 116px;
     }
   }
 
@@ -50,6 +65,12 @@
       height: 250px;
     }
 
+    .logo {
+      top: 5px;
+      left: 5px;
+      width: 115px;
+    }
+
     #content {
       height: 178px;
       width: 100%;
@@ -60,15 +81,24 @@
       top: 178px;
     }
   }
+
   &-728x90 {
     .media-unit {
       width: 728px;
       height: 90px;
     }
+
+    .logo {
+      top: 25px;
+      left: 21px;
+      width: 110px;
+    }
+
     #content {
       height: 90px;
       width: 483px;
     }
+
     .isi {
       width: 243px;
       height: 90px;
