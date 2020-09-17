@@ -20,18 +20,30 @@
 .size {
   &-160x600,
   &-300x600 {
+    #content {
+      height: 415px;
+      width: 100%;
+    }
     .isi {
       height: 183px;
       bottom: 0px;
     }
   }
   &-300x250 {
+    #content {
+      height: 226px;
+      width: 100%;
+    }
     .isi {
       height: 72px;
       top: 178px;
     }
   }
   &-728x90 {
+    #content {
+      height: 90px;
+      width: 483px;
+    }
     .isi {
       width: 243px;
       height: 90px;
