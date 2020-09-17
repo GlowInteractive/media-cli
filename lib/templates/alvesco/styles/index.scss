@@ -18,6 +18,20 @@
 }
 
 .size {
+  &-160x600 {
+    .media-unit {
+      width: 160px;
+      height: 600px;
+    }
+  }
+
+  &-300x600 {
+    .media-unit {
+      width: 300px;
+      height: 600px;
+    }
+  }
+
   &-160x600,
   &-300x600 {
     #content {
@@ -29,17 +43,28 @@
       bottom: 0px;
     }
   }
+
   &-300x250 {
+    .media-unit {
+      width: 300px;
+      height: 250px;
+    }
+
     #content {
-      height: 226px;
+      height: 178px;
       width: 100%;
     }
+
     .isi {
       height: 72px;
       top: 178px;
     }
   }
   &-728x90 {
+    .media-unit {
+      width: 728px;
+      height: 90px;
+    }
     #content {
       height: 90px;
       width: 483px;
