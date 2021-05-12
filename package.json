@@ -20,10 +20,9 @@
     "templates": "templates"
   },
   "dependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/plugin-proposal-class-properties": "^7.7.0",
-    "@babel/preset-env": "^7.11.5",
-    "@babel/runtime": "^7.7.4",
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/runtime": "^7.14.0",
     "@weareglow/media-cli": "^0.2.26",
     "@weareglow/media-components": "^0.0.39",
     "ansi-escapes": "^4.3.0",
@@ -44,6 +43,7 @@
     "color-convert": "^2.0.1",
     "color-name": "^1.1.4",
     "copy-webpack-plugin": "^5.0.5",
+    "core-js": "^3.12.1",
     "css-loader": "^3.2.0",
     "d": "^0.1.1",
     "debug": "^4.1.1",
@@ -89,6 +89,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "os-tmpdir": "^1.0.2",
     "postcss-loader": "^3.0.0",
+    "regenerator-runtime": "^0.13.7",
     "replace-string": "^3.0.0",
     "restore-cursor": "^3.1.0",
     "run-async": "^2.3.0",
@@ -120,5 +121,8 @@
   "bugs": {
     "url": "https://github.com/GlowInteractive/media-cli/issues"
   },
-  "homepage": "https://github.com/GlowInteractive/media-cli#readme"
+  "homepage": "https://github.com/GlowInteractive/media-cli#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.14.2"
+  }
 }
